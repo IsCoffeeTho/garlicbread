@@ -1,0 +1,14 @@
+{
+  "name": "garlicbread",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "toastiebun": "^0.3.3"
+  }
+}
