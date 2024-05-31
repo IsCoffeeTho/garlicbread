@@ -1,7 +1,11 @@
 {
   "name": "garlicbread",
+  "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run ./example/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -9,6 +13,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "toastiebun": "^0.3.3"
+    "toastiebun": "^0.4.1"
   }
 }
